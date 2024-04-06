@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Посты",
     "section": "",
-    "text": "dd - Запись iso-образа\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\ndisk\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nКоманда inxi(данные о системе)\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\nsystem\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nКоманда lsblk\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nterminal\n\n\ndisk\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Команда inxi(данные о системе)\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\ncopy\n\n\n\n\n\n\n\n\n\nApr 7, 2024\n\n\n\n\n\n\n\n\n\n\n\n\ndd - Запись iso-образа\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\ndisk\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nКоманда inxi(данные о системе)\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\nsystem\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nКоманда lsblk\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nterminal\n\n\ndisk\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,12 @@
     "title": "Команда inxi(данные о системе)",
     "section": "",
     "text": "Inxi предустановлен во многих дистрибутивах Linux. Если не установлен, выполните одну из команд в терминале:\nОснованных на deb-пакетах (Ubuntu, Linux Mint, Debian):\n\nsudo apt install inxi\n\nОснованных на rpm-пакетах Fedora, RosaFresh:\n\nsudo dnf install inxi\n\nОткройте терминал, введите и выполните команду:\n\ninxi\n\nAlt Linux:\n\nsudo apt-get install inxi\n\nПосле выполнения команды inxi без аргументов, в терминале выводится краткий перечень информации.\nДля более полного вывода информации о вашем компьютере используйте:\n\ninxi -F\n\nС inxi вы можете даже узнать текущую температуру погоды вашей местности командой:\n\ninxi –weather\n\nПолную справку по утилите inxi можно получить:\n\ninxi -h\n\nЯ использую:\n\ninxi -IPS"
+  },
+  {
+    "objectID": "posts/rsync/index.html",
+    "href": "posts/rsync/index.html",
+    "title": "Команда inxi(данные о системе)",
+    "section": "",
+    "text": "Взято из Википедии:\nrsync (англ. remote synchronization) — программа для UNIX-подобных систем, которая эффективно выполняет синхронизацию файлов и каталогов в двух местах (необязательно локальных) с минимизированием трафика, используя кодирование данных при необходимости. Важным отличием rsync от многих других программ/протоколов является то, что зеркалирование осуществляется одним потоком в каждом направлении (а не по одному или несколько потоков на каждый файл). rsync может копировать или отображать содержимое каталога и копировать файлы, опционально используя сжатие и рекурсию. rsync передаёт только изменения файлов, что отражается на производительности программы.\n\n\nsudo rsync -aAXvzh / –exclude={“/home/”,”/dev/”,”/proc/”,”/sys/”,”/tmp/”,”/run/”,”/mnt/”,”/media/”,”/lost+found”} /home/jenit/2024\n\nГде копируем корневой раздел (/).\nПрописываем директории которые исключаем из копирования (-exclude).\nКуда копируем (/home/jenit/2024).\nЯ пользуюсь этим способом для резервного копирования своей системы.\nПервый раз использования - будет копироваться вся система,затем ,при последующим копировании, только новые и измененные файлы и директории."
   }
 ]

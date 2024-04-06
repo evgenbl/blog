@@ -25,5 +25,8 @@
   },
   "posts/inxi/index.qmd": {
     "index.html": "55f33a17"
+  },
+  "posts/rsync/index.qmd": {
+    "index.html": "c9db2583"
   }
 }

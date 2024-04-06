@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/rsync/index.html",
       "/posts/dd/index.html",
       "/posts/inxi/index.html",
       "/posts/lsblk/index.html"

@@ -1,6 +1,6 @@
 ---
 title: "Команда inxi(данные о системе)"
-date: "2024-04-06"
+date: "2024-04-07"
 categories: [news, terminal, copy]
 image: "rsync.jpg"
 ---
