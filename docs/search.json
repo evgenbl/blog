@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Посты",
     "section": "",
-    "text": "Команда lsblk\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nterminlal\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Команда lsblk\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nterminal\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\ndd - Запись iso-образа\n\n\n\n\n\n\nnews\n\n\nterminal\n\n\ndisk\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,12 @@
     "title": "Команда lsblk",
     "section": "",
     "text": "Команда lsblk позволяет получить информацию о блочных устройствах,т.е о разделах - sda, sdb и sdc.\nМожно получить информацию об отдельном диске, если передавть его в качестве аргумента:\n\n$ lsblk /dev/sdb\n\nОпция -f или –fs позволяет добавить в вывод информацию о файловых системах."
+  },
+  {
+    "objectID": "posts/dd/index.html",
+    "href": "posts/dd/index.html",
+    "title": "dd - Запись iso-образа",
+    "section": "",
+    "text": "Способ - dd\nОпределить имя flash-носителя, например, sd[x]:\n\n$ sudo fdisk -l\n\nor\n\n$ lsblk\n\nПерейдите в консоли в каталог с iso-образом:\n\n$ cd /путь/до/образа\n\n\n\nЗапись iso-образа:\n(это для Всех OS)\n\n$ dd if=***.iso of=/dev/sd[x] status=progress\n\nstatus=progress - показывает прогресс записи\n\n\nВАЖНО!\nВместо sd[x] укажите свое имя носителя.\nПри этом будут стерты все данные на USB накопителе и записаны новые!\n\n\nДля RedOS\nДля систем с UEFI и таблицей разделов GPT следует подготовить flash-носитель, выполнив список команд:\n\nparted -s /dev/sd[x] mklabel gpt\nparted -s –align=optimal /dev/sd[x] mkpart REDOS fat32 1MiB 100%\nparted -s /dev/sd[x] set 1 boot on\nmkfs.vfat -F 32 /dev/sd[x]\n\n\n\nЗапись iso-образа:\n\n$ dd if=***.iso of=/dev/sd[x] status=progress\n\nstatus=progress - показывает прогресс записи\nЕсли хотите видеть процесс создания флешки для этого нужно будет установить улучшенную версию dd, которая носит название dcfldd.\n\nsudo apt-get install dcfldd\n\nСотрудники лаборатории DoD Computer Forensics Laboratory (DCFL) внесли некоторые изменения в команду dd, тем самым улучшив ее и применяя в своих исследовательских работах. В итоге на свет появилась команда dcfldd, которая обеспечивает хеширование копируемых данных через некоторые промежутки времени для их аутентификации. Более того, dcfldd работает гораздо быстрее, чем dd.\nТеперь, если Вы хотите именно видеть прогресс копирования, либо создания образа, Вам нужно выполнить команду:\n\nsudo dcfldd if=/dev/sdc of=image.iso"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 title: "Команда lsblk"
 date: "2024-04-06"
-categories: [news, code, terminlal]
+categories: [news, code, terminal]
 image: "lsblk.jpg"
 ---
 
