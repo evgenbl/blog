@@ -1,5 +1,5 @@
 ---
-title: "Команда inxi(данные о системе)"
+title: "Команда rsync(резервное копирование)"
 date: "2024-04-07"
 categories: [news, terminal, copy]
 image: "rsync.jpg"
