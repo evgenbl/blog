@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/mount/index.html",
       "/posts/cat/index.html",
       "/posts/cron/index.html",
       "/posts/wget/index.html",
