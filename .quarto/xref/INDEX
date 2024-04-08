@@ -31,5 +31,8 @@
   },
   "posts/cron/index.qmd": {
     "index.html": "078cfe0a"
+  },
+  "posts/wget/index.qmd": {
+    "index.html": "7d646398"
   }
 }
