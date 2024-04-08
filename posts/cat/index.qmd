@@ -60,6 +60,8 @@ image: "cat.jpg"
 
 - bla-bla-bla
 
+- Enter
+
 - Ctrl+D
 
 Посмотреть содержимое созданного файла:
