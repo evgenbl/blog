@@ -4,6 +4,7 @@
     "items": [
       "/posts/mount/index.html",
       "/posts/cat/index.html",
+      "/posts/archivers/index.html",
       "/posts/cron/index.html",
       "/posts/wget/index.html",
       "/posts/rsync/index.html",
