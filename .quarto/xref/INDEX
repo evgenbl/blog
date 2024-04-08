@@ -28,5 +28,8 @@
   },
   "posts/rsync/index.qmd": {
     "index.html": "c9db2583"
+  },
+  "posts/cron/index.qmd": {
+    "index.html": "078cfe0a"
   }
 }
