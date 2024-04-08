@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/cat/index.html",
       "/posts/cron/index.html",
       "/posts/wget/index.html",
       "/posts/rsync/index.html",
