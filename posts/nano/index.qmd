@@ -1,5 +1,5 @@
 ---
-title: Nano - консольный,текстовой редактор
+title: "Nano - консольный,текстовой редактор"
 date: "2024-04-09"
 categories: [news, terminal, editor]
 image: "nano.jpg"
