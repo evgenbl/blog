@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/mpg123/index.html",
       "/posts/nano/index.html",
       "/posts/mount/index.html",
       "/posts/cat/index.html",
