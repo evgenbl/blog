@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/fsck/index.html",
       "/posts/mpg123/index.html",
       "/posts/nano/index.html",
       "/posts/mount/index.html",
