@@ -9,6 +9,7 @@ website:
       - about.qmd
 format:
   html:
+    smaller: true
     #theme: cosmo
     css: styles.css
 
