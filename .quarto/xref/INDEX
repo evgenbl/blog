@@ -61,5 +61,8 @@
   },
   "posts/console/index.qmd": {
     "index.html": "499d192f"
+  },
+  "posts/bat/index.qmd": {
+    "index.html": "401e641f"
   }
 }
