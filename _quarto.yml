@@ -7,6 +7,7 @@ website:
   navbar:
     right:
       - about.qmd
+      - VK.qmd
 format:
   html:
     smaller: true
