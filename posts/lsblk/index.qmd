@@ -2,6 +2,9 @@
 title: "Команда lsblk"
 date: "2024-04-06"
 categories: [news, code, terminal, disk]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "lsblk.jpg"
 ---
 

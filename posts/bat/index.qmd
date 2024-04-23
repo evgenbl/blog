@@ -2,6 +2,9 @@
 title: "Bat"
 date: "2024-04-23"
 categories: [news, terminal, editor]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "bat1.jpg"
 ---
 

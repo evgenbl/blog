@@ -2,6 +2,9 @@
 title: "Архиваторы в консоли"
 date: "2024-04-09"
 categories: [news,terminal, archivers]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "archivers.jpg"
 ---
 

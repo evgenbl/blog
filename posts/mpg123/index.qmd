@@ -2,6 +2,9 @@
 title: "Mpg123"
 date: "2024-04-10"
 categories: [news, terminal, music]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "mpg123.jpg"
 ---
 

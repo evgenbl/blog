@@ -2,6 +2,9 @@
 title: "Wget.Консольный менеджер загрузок."
 date: "2024-04-08"
 categories: [news, terminal, internet]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "wget.jpg"
 ---
 

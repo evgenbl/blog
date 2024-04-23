@@ -2,6 +2,9 @@
 title: "Команда rsync(резервное копирование)"
 date: "2024-04-07"
 categories: [news, terminal, copy]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "rsync.jpg"
 ---
 Взято из Википедии:

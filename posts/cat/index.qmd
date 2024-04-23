@@ -2,6 +2,9 @@
 title: "Cat"
 date: "2024-04-09"
 categories: [news, terminal, editor]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "cat.jpg"
 ---
 

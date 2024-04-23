@@ -2,6 +2,9 @@
 title: "dd - Запись iso-образа"
 date: "2024-04-06"
 categories: [news,terminal, disk]
+page-layout: full
+title-block-banner: false
+toc: true
 image: "dd.jpg"
 ---
 
