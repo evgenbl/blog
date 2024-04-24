@@ -86,6 +86,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../VK.html" rel="" target="">
+ <span class="menu-text">VK</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools">
 </div>
@@ -103,6 +107,19 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#wget---консольный-менеджер-загрузок." id="toc-wget---консольный-менеджер-загрузок." class="nav-link active" data-scroll-target="#wget---консольный-менеджер-загрузок.">Wget - консольный менеджер загрузок.</a></li>
+  <li><a href="#опции" id="toc-опции" class="nav-link" data-scroll-target="#опции">Опции:</a></li>
+  <li><a href="#загрузка-файла" id="toc-загрузка-файла" class="nav-link" data-scroll-target="#загрузка-файла">Загрузка файла:</a></li>
+  <li><a href="#сохранить-файл-с-другим-именем" id="toc-сохранить-файл-с-другим-именем" class="nav-link" data-scroll-target="#сохранить-файл-с-другим-именем">Сохранить файл с другим именем:</a></li>
+  <li><a href="#скачать-несколько-файлов" id="toc-скачать-несколько-файлов" class="nav-link" data-scroll-target="#скачать-несколько-файлов">Скачать несколько файлов:</a></li>
+  <li><a href="#взять-url-из-файла" id="toc-взять-url-из-файла" class="nav-link" data-scroll-target="#взять-url-из-файла">Взять <strong>URL</strong> из файла:</a></li>
+  <li><a href="#продолжить-загрузку" id="toc-продолжить-загрузку" class="nav-link" data-scroll-target="#продолжить-загрузку">Продолжить загрузку:</a></li>
+  <li><a href="#загрузка-файлов-в-фоне" id="toc-загрузка-файлов-в-фоне" class="nav-link" data-scroll-target="#загрузка-файлов-в-фоне">Загрузка файлов в фоне:</a></li>
+  <li><a href="#ограничение-скорости-загрузки" id="toc-ограничение-скорости-загрузки" class="nav-link" data-scroll-target="#ограничение-скорости-загрузки">Ограничение скорости загрузки:</a></li>
+  <li><a href="#загрузить-и-выполнить" id="toc-загрузить-и-выполнить" class="nav-link" data-scroll-target="#загрузить-и-выполнить">Загрузить и выполнить:</a></li>
+  <li><a href="#сохранить-файл-в-папке" id="toc-сохранить-файл-в-папке" class="nav-link" data-scroll-target="#сохранить-файл-в-папке">Сохранить файл в папке:</a></li>
+  <li><a href="#скачать-сайт" id="toc-скачать-сайт" class="nav-link" data-scroll-target="#скачать-сайт">Скачать сайт:</a></li>
+  <li><a href="#чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду" id="toc-чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду" class="nav-link" data-scroll-target="#чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду">Чтобы скачать сайт целиком с помощью wget нужно выполнить команду:</a></li>
+  <li><a href="#рассмотрим-используемые-параметры" id="toc-рассмотрим-используемые-параметры" class="nav-link" data-scroll-target="#рассмотрим-используемые-параметры">Рассмотрим используемые параметры:</a></li>
   </ul>
 </nav>
     </div>
@@ -140,8 +157,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="wget---консольный-менеджер-загрузок." class="level3">
 <h3 class="anchored" data-anchor-id="wget---консольный-менеджер-загрузок.">Wget - консольный менеджер загрузок.</h3>
 <p><em>Можно с его помощью скачать изображения,видео,файлы,страницы сайта,сам сайт.</em></p>
-<section id="опции" class="level4">
-<h4 class="anchored" data-anchor-id="опции">Опции:</h4>
+</section>
+<section id="опции" class="level3">
+<h3 class="anchored" data-anchor-id="опции">Опции:</h3>
 <ul>
 <li><p>-V (–version) - вывести версию программы</p></li>
 <li><p>-h (–help) - вывести справку</p></li>
@@ -172,87 +190,87 @@ ul.task-list li input[type="checkbox"] {
 <li><p>-p (–page-requisites) - во время загрузки сайта скачивать все необходимые ресурсы</p></li>
 </ul>
 </section>
-<section id="загрузка-файла" class="level4">
-<h4 class="anchored" data-anchor-id="загрузка-файла">1. Загрузка файла:</h4>
+<section id="загрузка-файла" class="level3">
+<h3 class="anchored" data-anchor-id="загрузка-файла">Загрузка файла:</h3>
 <p>Команда <strong>wget linux</strong> скачает один файл и сохранит его в текущей директории. Во время загрузки мы увидим прогресс, размер файла, дату его последнего изменения, а также скорость загрузки:</p>
 <ul>
 <li>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</li>
 </ul>
 </section>
-<section id="сохранить-файл-с-другим-именем" class="level4">
-<h4 class="anchored" data-anchor-id="сохранить-файл-с-другим-именем">2. Сохранить файл с другим именем:</h4>
+<section id="сохранить-файл-с-другим-именем" class="level3">
+<h3 class="anchored" data-anchor-id="сохранить-файл-с-другим-именем">Сохранить файл с другим именем:</h3>
 <p>Опция <strong><em>-О</em></strong> позволяет задать имя сохраняемому файлу, например, скачать файл <strong>wget</strong> с именем <strong>wget.zip</strong>:</p>
 <ul>
 <li>wget -O wget.zip http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</li>
 </ul>
 </section>
-<section id="скачать-несколько-файлов" class="level4">
-<h4 class="anchored" data-anchor-id="скачать-несколько-файлов">3. Скачать несколько файлов:</h4>
+<section id="скачать-несколько-файлов" class="level3">
+<h3 class="anchored" data-anchor-id="скачать-несколько-файлов">Скачать несколько файлов:</h3>
 <p>Вы можете скачать несколько файлов одной командой даже по разным протоколам, просто указав их <strong>URL</strong>:</p>
 <ul>
 <li>wget http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz ftp://ftp.gnu.org/gnu/wget/wget-1.10.1.tar.gz.sig</li>
 </ul>
 </section>
-<section id="взять-url-из-файла" class="level4">
-<h4 class="anchored" data-anchor-id="взять-url-из-файла">4. Взять <strong>URL</strong> из файла:</h4>
+<section id="взять-url-из-файла" class="level3">
+<h3 class="anchored" data-anchor-id="взять-url-из-файла">Взять <strong>URL</strong> из файла:</h3>
 <p>Вы можете сохранить несколько<strong>URL</strong> в файл, а затем загрузить их все, передав файл опции <strong><em>-i</em></strong>. Например создадим файл tmp.txt, со ссылками для загрузки <strong>wget</strong>, а затем скачаем его:</p>
 <ul>
 <li>wget -i /wget/tmp.txt</li>
 </ul>
 </section>
-<section id="продолжить-загрузку" class="level4">
-<h4 class="anchored" data-anchor-id="продолжить-загрузку">5. Продолжить загрузку:</h4>
+<section id="продолжить-загрузку" class="level3">
+<h3 class="anchored" data-anchor-id="продолжить-загрузку">Продолжить загрузку:</h3>
 <p>Утилита <strong><em>wget linux</em></strong> рассчитана на работу в медленных и нестабильных сетях. Поэтому если вы загружали большой файл, и во время загрузки было потеряно соединение, то вы можете скачать файл <strong><em>wget</em></strong> с помощью опции <strong><em>-c</em></strong>.</p>
 <ul>
 <li>wget -c http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</li>
 </ul>
 </section>
-<section id="загрузка-файлов-в-фоне" class="level4">
-<h4 class="anchored" data-anchor-id="загрузка-файлов-в-фоне">6. Загрузка файлов в фоне:</h4>
+<section id="загрузка-файлов-в-фоне" class="level3">
+<h3 class="anchored" data-anchor-id="загрузка-файлов-в-фоне">Загрузка файлов в фоне:</h3>
 <p>Опция <strong><em>-b</em></strong> заставляет программу работать в фоновом режиме, весь вывод будет записан в лог файл, для настройки лог файла используются специальные ключи wget:</p>
 <ul>
 <li>wget -b -o ~/wget.log http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</li>
 </ul>
 </section>
-<section id="ограничение-скорости-загрузки" class="level4">
-<h4 class="anchored" data-anchor-id="ограничение-скорости-загрузки">7. Ограничение скорости загрузки:</h4>
+<section id="ограничение-скорости-загрузки" class="level3">
+<h3 class="anchored" data-anchor-id="ограничение-скорости-загрузки">Ограничение скорости загрузки:</h3>
 <p>Команда <strong>wget linux</strong> позволяет не только продолжать загрузку файлов, но и ограничивать скорость загрузки. Для этого есть опция –limit-rate. Например ограничим скорость до 100 килобит:</p>
 <ul>
 <li>wget –limit-rate=100k ftp://ftp.iinet.net.au/debian/debian-cd/8.4.0/amd64/iso-dvd/debian-8.4. 0-amd64-DVD-1.iso</li>
 </ul>
 </section>
-<section id="загрузить-и-выполнить" class="level4">
-<h4 class="anchored" data-anchor-id="загрузить-и-выполнить">9. Загрузить и выполнить:</h4>
+<section id="загрузить-и-выполнить" class="level3">
+<h3 class="anchored" data-anchor-id="загрузить-и-выполнить">Загрузить и выполнить:</h3>
 <p>Вы, наверное, уже видели такие команды. wget позволяет сразу же выполнять скачанные скрипты:</p>
 <ul>
 <li>wget -O - http://сайт/скрипт.sh | bash</li>
 </ul>
 <p>Если опции <strong><em>-O</em></strong> не передать аргументов, то скачанный файл будет выведен в стандартный вывод, затем мы его можем перенаправить с интерпретатор bash, как показано выше.</p>
 </section>
-<section id="сохранить-файл-в-папке" class="level4">
-<h4 class="anchored" data-anchor-id="сохранить-файл-в-папке">10. Сохранить файл в папке:</h4>
+<section id="сохранить-файл-в-папке" class="level3">
+<h3 class="anchored" data-anchor-id="сохранить-файл-в-папке">Сохранить файл в папке:</h3>
 <p>По умолчанию wget сохраняет файл в текущую папку, но это поведение очень легко изменить с помощью опции <strong><em>-P</em></strong>:</p>
 <ul>
 <li>wget -P ~/Downloads/ http://ftp.gnu.org/gnu/wget/wget-1.5.3.tar.gz</li>
 </ul>
 </section>
-<section id="скачать-сайт" class="level4">
-<h4 class="anchored" data-anchor-id="скачать-сайт">11. Скачать сайт:</h4>
+<section id="скачать-сайт" class="level3">
+<h3 class="anchored" data-anchor-id="скачать-сайт">Скачать сайт:</h3>
 <p><strong>Wget</strong> позволяет не только скачивать одиночные файлы, но и целые сайты, чтобы вы могли их потом просматривать в офлайне. Использование wget, чтобы скачать сайт в <strong>linux</strong> выглядит вот так:</p>
 <ul>
 <li>wget –mirror -p –convert-links -P ./<local-folder> адрес_сайт</local-folder></li>
 </ul>
 </section>
-<section id="чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду" class="level4">
-<h4 class="anchored" data-anchor-id="чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду">Чтобы скачать сайт целиком с помощью wget нужно выполнить команду:</h4>
+<section id="чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду" class="level3">
+<h3 class="anchored" data-anchor-id="чтобы-скачать-сайт-целиком-с-помощью-wget-нужно-выполнить-команду">Чтобы скачать сайт целиком с помощью wget нужно выполнить команду:</h3>
 <ul>
 <li>wget http://site.com/</li>
 </ul>
 <p>После выполнения данной команды в директорию site.com будет загружена локальная копия сайта <strong><em>http://site.com</em></strong>.</p>
 <p>Чтобы открыть главную страницу сайта нужно открыть файл<strong><em>index.html</em></strong>.</p>
 </section>
-<section id="рассмотрим-используемые-параметры" class="level4">
-<h4 class="anchored" data-anchor-id="рассмотрим-используемые-параметры">Рассмотрим используемые параметры:</h4>
+<section id="рассмотрим-используемые-параметры" class="level3">
+<h3 class="anchored" data-anchor-id="рассмотрим-используемые-параметры">Рассмотрим используемые параметры:</h3>
 <ul>
 <li><p>-r — указывает на то, что нужно рекурсивно переходить по ссылкам на сайте, чтобы скачивать страницы.</p></li>
 <li><p>-k — используется для того, чтобы wget преобразовал все ссылки в скаченных файлах таким образом, чтобы по ним можно было переходить на локальном компьютере (в автономном режиме).</p></li>
@@ -263,7 +281,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
