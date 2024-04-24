@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/user/index.html",
       "/posts/mkfs/index.html",
       "/posts/bat/index.html",
       "/posts/console/index.html",

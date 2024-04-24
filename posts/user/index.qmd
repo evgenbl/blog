@@ -1,0 +1,29 @@
+---
+title: "Создание/Удаление пользователя"
+date: "2024-04-24"
+categories: [news, terminal, system]
+page-layout: full
+title-block-banner: false
+toc: true
+image: "Useradd-vs-adduser.jpg"
+---
+
+Useradd vs Adduser
+
+useradd - это низкоуровневая утилита для добавления новых пользователей
+
+adduser - дружественный интерактивный интерфейс для useradd, написанный на Perl.
+
+adduser является более удобным для пользователя и интерактивным, чем его серверная часть useradd.
+
+Нет никакой разницы в предоставляемых функциях.
+
+### Добавить/Удалить пользователя
+
+- sudo adduser "user" - добавить пользователя
+
+- sudo passwd "user" - задать пароль
+
+- sudo usermod -a -G wheel "user" - добавить пользователя в группу **wheel**
+
+- sudo userdel -r "user"  -  удалить пользователя и домашний каталог
