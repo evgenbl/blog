@@ -79,5 +79,8 @@
   },
   "posts/curl/index.qmd": {
     "index.html": "c312b02f"
+  },
+  "posts/sudo/index.qmd": {
+    "index.html": "3437df46"
   }
 }

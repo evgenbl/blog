@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/sudo/index.html",
       "/posts/curl/index.html",
       "/posts/user/index.html",
       "/posts/mkfs/index.html",
