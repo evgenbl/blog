@@ -82,5 +82,8 @@
   },
   "posts/sudo/index.qmd": {
     "index.html": "3437df46"
+  },
+  "posts/vim/vim.qmd": {
+    "vim.html": "efe7ba87"
   }
 }

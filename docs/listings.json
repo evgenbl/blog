@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/vim/vim.html",
       "/posts/sudo/index.html",
       "/posts/curl/index.html",
       "/posts/user/index.html",
